@@ -1,0 +1,36 @@
+[
+{"type":"header","version":"4.7.4","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"bikelele"},
+{"type":"table","name":"bikes","database":"bikelele","data":
+[
+{"bikeid":"27ead07e0","bikename":"UM Renegade","type":"Cruise","price":"240","status":"available","imgurl":"uploads\/bikes\/27ead07e0.jpg"},
+{"bikeid":"318cab401","bikename":"Tiger","type":"Adventure","price":"500","status":"Available","imgurl":"uploads\/bikes\/318cab401.jpg"},
+{"bikeid":"97ead07e0","bikename":"Avenger","type":"Cruise","price":"300","status":"available","imgurl":"uploads\/bikes\/97ead07e0.jpg"}
+]
+}
+,{"type":"table","name":"orders","database":"bikelele","data":
+[
+{"orderid":"00692a4f4","bikeid":"318cab401,97ead07e0","userid":"72b34e12e","orderdate":"22\/08\/2019","ordertime":"20:38:42","duration":"","pickupdate":"\n            ","pickuptime":"","amount":"800","paymentmode":"cod","status":"success"},
+{"orderid":"09caa1b06","bikeid":"27ead07e0,318cab401","userid":"518cab401","orderdate":"22\/08\/2019","ordertime":"18:49:35","duration":"5","pickupdate":"08\/14\/2019\n            ","pickuptime":"10:50","amount":"740","paymentmode":"cod","status":"success"},
+{"orderid":"0e4a79c1c","bikeid":"318cab401,97ead07e0","userid":"72b34e12e","orderdate":"22\/08\/2019","ordertime":"20:38:45","duration":"","pickupdate":"\n            ","pickuptime":"","amount":"800","paymentmode":"cod","status":"success"},
+{"orderid":"164646ba2","bikeid":"97ead07e0,318cab401,27ead07e0","userid":"16ec77da6","orderdate":"22\/08\/2019","ordertime":"19:27:27","duration":"-10","pickupdate":"08\/27\/2019\n            ","pickuptime":"03:30","amount":"1040","paymentmode":"cod","status":"success"},
+{"orderid":"16472ad69","bikeid":"318cab401,318cab401","userid":"4e1beab7a","orderdate":"22\/08\/2019","ordertime":"19:21:27","duration":"5","pickupdate":"08\/27\/2019\n            ","pickuptime":"22:50","amount":"1000","paymentmode":"cod","status":"success"},
+{"orderid":"2ec5d13fd","bikeid":"97ead07e0,318cab401","userid":"7b218634c","orderdate":"22\/08\/2019","ordertime":"19:00:15","duration":"-6","pickupdate":"08\/22\/2019\n            ","pickuptime":"13:05","amount":"800","paymentmode":"cod","status":"success"},
+{"orderid":"7c633cd42","bikeid":"97ead07e0","userid":"d54cf70b7","orderdate":"22\/08\/2019","ordertime":"19:03:04","duration":"-7","pickupdate":"08\/22\/2019\n            ","pickuptime":"01:05","amount":"300","paymentmode":"cod","status":"success"}
+]
+}
+,{"type":"table","name":"users","database":"bikelele","data":
+[
+{"userid":"009e84110","username":"swapnil","email":"swapnil_tiwari@outlook.com","password":"123456789","contactnumber":"987456321","address":"375A\/1 MEERAPUR ALLAHABAD"},
+{"userid":"16ec77da6","username":"Shivam","email":"shuklashivamk2@gmail.com","password":"123","contactnumber":"7894561230","address":"west bengal"},
+{"userid":"37ead07e0","username":"nikhilesh","email":"nikhileshofficial@gmail.com","password":"1234567890","contactnumber":"2147483647","address":"alpha 1"},
+{"userid":"4e1beab7a","username":"Mini","email":"mini@gmail.com","password":"qwerty","contactnumber":"9874563215","address":"Nagpur"},
+{"userid":"518cab401","username":"Suryansh Verma","email":"suryansh@gmail.com","password":"123456","contactnumber":"2147483647","address":"Allahabad"},
+{"userid":"72b34e12e","username":"Arpit","email":"arpit@gmail.com","password":"123456789","contactnumber":"987453215","address":"Nauka Vihaar"},
+{"userid":"7b218634c","username":"Udit Gupta","email":"uditsameer@gmail.com","password":"12345","contactnumber":"2147483647","address":"Aligarh"},
+{"userid":"a95c86897","username":"Shivansh","email":"shivansh@gmail.com","password":"123456","contactnumber":"2147483647","address":"Delhi"},
+{"userid":"d54cf70b7","username":"sameer","email":"udit3008@outlook.com","password":"123","contactnumber":"2147483647","address":"Greater Noida"},
+{"userid":"f8f67c874","username":"Deepak","email":"deepak@gmail.com","password":"qwerty","contactnumber":"2147483647","address":"Bihaar"}
+]
+}
+]
